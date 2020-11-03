@@ -1,0 +1,130 @@
+body {
+    background-color: azure;
+}
+
+.container-rect {
+    stroke: lightblue;
+    fill: none;
+}
+
+.text {
+    text-anchor: middle;
+    font-family: American Typewriter, serif;
+    text-align: center;
+}
+
+.legend-text {
+    text-anchor: start;
+}
+
+#title {
+    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    font-size: 40px;
+    padding-top: 20px;
+    color: darkslategrey;
+}
+
+#book-legend {
+    display: inline-block;
+}
+
+.outer-legend {
+    fill:#4d3716;
+}
+
+.middle-legend {
+    fill:#6eb560;
+}
+
+.inner-legend {
+    fill: white;
+}
+
+.legend-lines {
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+.sample-lines {
+    stroke: black;
+}
+
+#book-list {
+    text-align: center;
+}
+
+.list-text {
+    display: inline-block;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.list-text:hover {
+    color: darkseagreen;
+}
+
+.easy {
+    fill: #6eb560;
+}
+
+.medium {
+    fill: #faf887;
+}
+
+.hard {
+    fill: #eb4034;
+}
+
+.info-tip {
+    fill: dodgerblue;
+}
+
+.info-tip:hover {
+    fill: darkseagreen;
+}
+
+.info-tip-text {
+    font-size: 14px;
+    fill: darkslategrey;
+}
+
+#book-diagram {
+    float: left;
+    width: 35%;
+}
+
+#story-title {
+    fill: darkslategrey;
+    font-size: 17px;
+}
+
+#diagram-subtitle {
+    font-size: 12px;
+    fill: darkslategrey;
+}
+
+.axis-label {
+    font-size: 14px;
+    text-anchor: end;
+}
+
+#checkbox {
+    fill: azure;
+    stroke: gray;
+    stroke-width: 2px;
+}
+
+#checkbox-text {
+    text-anchor: start;
+    fill: dimgray;
+}
+
+.tip {
+    font-size: 12px;
+}
+
+#spectrum-instructions {
+    font-size: 18px;
+}
